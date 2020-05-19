@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+#timeline {
+  width: 100vw;
+  height: 50px;
+  background-color: yellow;
+  z-index: 9;
+  position: absolute;
+  bottom: 0;
+}
+
+#progress {
+  position: absolute;
+  height: 100%;
+  background-color: red;
+}
