@@ -51,7 +51,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.gpx$/i,
+        test: /\.(gpx|kml)$/i,
         use: [
           {
             loader: 'raw-loader',
